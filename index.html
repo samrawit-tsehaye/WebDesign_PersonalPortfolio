@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samrawit Tsehaye</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+   <style>
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  text-align: center;
+}
+
+header {
+  background: url('images/background.png') no-repeat center center/cover;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  position: relative;
+}
+.nav_bar {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+
+.welcome {
+  text-align: center;
+  padding: 60px 20px;
+  color: black;
+}
+
+.welcome h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  
+}
+
+nav a:hover {
+  color: #0077ff;
+  text-decoration: underline;
+}
+.image img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+  transform: scale(1.5);
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.cert-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cert-grid img:hover {
+  transform: scale(1.1);
+}
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+#contact {
+  background-color:  #cfd8e5;
+  text-align: center;
+  
+}
+#contact h1 {
+  color: #2563eb;
+}
+#contact .footer .social-links a {
+  margin: 10px 5px;
+  font-size: 20px;
+  color: #1f2937;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+}
+#contact .footer .social-links a:hover {
+  color: #7c3aed;
+}
+@media (max-width: 768px) {
+  .right {
+    align-items: center;
+    text-align: center;
+  }
+}  
+</style>
+</head>
+<body>
+  <header>
+  <div class="nav_bar">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#cert">Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <div class="welcome">
+    <h1>Hi, I'm Samrawit 👋</h1>
+    <p>Welcome to my personal portfolio.</p>
+  </div>
+</header>
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="image">
+            <img src="images/photo_2026-02-17_22-48-50.jpg" alt="profile picture" width="200" />
+          </div>
+      <p>
+       I’m Samrawit Tsehaye, an Information Technology student at Mekelle Institute of Technology
+       with a growing passion for web development and building meaningful digital experiences.
+       I’m currently developing my skills in HTML, CSS, and JavaScript, and actively working toward
+       turning ideas into real, functional projects.
+       As a beginner in tech, I focus on learning by doing—exploring how websites are structured,
+       styled, and brought to life through code. I enjoy the process of solving problems, improving user experience,
+       and continuously refining my work.
+       My goal is to evolve into a skilled developer who creates impactful solutions that make everyday life easier and more efficient.
+       I’m always open to learning new technologies, collaborating with others, and contributing to projects that challenge me to grow.
+      </p>
+    </section>
+     <section id="cert">
+      <h1>My certeficates</h1>
+      <div class="cert-grid">
+        <img src="images/certificate1.jpg" alt="Certificate 1" width="300" />
+        <img src="images/certificate2.jpg" alt="Certificate 2" width="300" />
+        <img src="images/certificate3.jpg" alt="Certificate 3" width="300" />
+        <img src="images/certificate4.jpg" alt="Certificate 4" width="300" />
+        <img src="images/certificate5.jpg" alt="Certificate 5" width="300" />
+        <img src="images/certificate6.jpg" alt="Certificate 6" width="300" />
+        
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Practice projects</h1>
+      <p>Small projects I built while learning HTML, CSS, and Javascript</p>
+      <h3>Favorite food</h3>
+      <p>
+        project created during my SheCodes workshop. It’s built with semantic
+        HTML, styled using CSS, and enhanced with a touch of JavaScript for
+        interactivity.
+      </p>
+      <a
+        href="https://www.shecodes.io/cohorts/2716/projects/2677851?_gl=1*syjcr2*_gcl_au*MTkyOTg1NjQxNC4xNzUyMjE3MjA5LjY0Mjg1NTg4LjE3NTIyMTgzMzkuMTc1MjIxODM2Ng.."
+        target="_blank"
+      >
+        <img
+          src="images/doro.jpg"
+          alt="Dorowot screenshot"
+          width="200"
+          height="200"
+        />
+      </a>
+
+      <h3>Simple calculator</h3>
+      <p>
+        Simple HTML/CSS/JS calculator performing basic arithmetic, showcasing
+        front-end fundamentals.
+      </p>
+      <a
+        href="https://github.com/141414-tech/CodeAlpha_Calculator.git"
+        target="_blank"
+      >
+        <img
+          src="images/calculator.jpg"
+          alt="calculator screenshot"
+          width="200"
+          height="200"
+        />
+      </a>
+
+      <h3>Samri-boutique</h3>
+      <p>
+        Boutique-themed landing page built with HTML, CSS, and
+        JavaScript—showcasing responsive design and clean front-end development.
+      </p>
+      <a
+        href="https://www.shecodes.io/cohorts/2730/projects/2679039?_gl=1*1djb7yr*_gcl_au*MTkyOTg1NjQxNC4xNzUyMjE3MjA5LjY0Mjg1NTg4LjE3NTIyMTgzMzkuMTc1MjIxODM2Ng"
+        target="_blank"
+      >
+        <img
+          src="images/boutique.jpg"
+          alt="boutique screenshot"
+          width="200"
+          height="200"
+        />
+      </a>
+    </section>
+     <section id="contact">
+      <footer class="footer">
+        <h1>Contact Me</h1>
+        <p>You can contact me through</p>
+        <div class="social-links">
+          <a href="https://github.com/samrawit-tsehaye"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/samri-tsehaye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://instagram.com/sam_tsehaye14" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://vm.tiktok.com/ZMARscdnD/" target="_blank"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a href="mailto:tsehayesamri1@gmail.com"
+            ><i class="fab fa-google"></i
+          ></a>
+        </div>
+      </footer>
+    </section>
+</body>
+</html>
