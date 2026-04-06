@@ -6,7 +6,7 @@ Hi! 👋 I'm Samrawit Tsehaye.
 This repository contains my personal portfolio website where I showcase my skills, projects, and certificates as I continue growing in tech.
 
 ##  Live Demo
-
+https://samrawit-tsehaye.github.io/WebDesign_PersonalPortfolio/
 
 ## About This Project
 
